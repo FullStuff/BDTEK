@@ -3,12 +3,14 @@ body{
     color: white;
 }
 
-nav{
+.navigateur{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
+    align-items: center;
     padding-bottom: 2%;
+    
 }
 
 .collections_gauches{
@@ -40,6 +42,7 @@ a:hover{
     border-style: solid;
     padding: 1px;
     margin: 0px 1px 5px;
+    
 }
 
 .menu:hover{
